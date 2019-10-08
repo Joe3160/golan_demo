@@ -14,7 +14,7 @@ func main() {
 	c *= a
 	fmt.Println("相来和赋佳运算符，实际为 c = c * a ， 所以 c 的值为:", c)
 	c /= a
-	fmt.Println("相除和赋值运算符，实际为 c = c I a ，所以 c 的值为：", c)
+	fmt.Println("相除和赋值运算符，实际为 c = c / a ，所以 c 的值为：", c)
 	c <<= 2
 	fmt.Println("左移和赋佳运算符，所以 c 的值为 :", c)
 	c >>= 2
